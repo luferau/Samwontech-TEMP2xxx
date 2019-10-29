@@ -29,6 +29,10 @@ Samwontech TEMP2xxx Series Programmable Controller (TEMP2500/TEMP2700)</Property
 			<Item Name="AMI Responce Bytes Count.vi" Type="VI" URL="/&lt;instrlib&gt;/Samwontech TEMP2xxx/Private/AMI Responce Bytes Count.vi"/>
 			<Item Name="AMI Payload Parse.vi" Type="VI" URL="/&lt;instrlib&gt;/Samwontech TEMP2xxx/Private/AMI Payload Parse.vi"/>
 		</Item>
+		<Item Name="WSD" Type="Folder">
+			<Item Name="WSD Request Compose.vi" Type="VI" URL="/&lt;instrlib&gt;/Samwontech TEMP2xxx/Private/WSD Request Compose.vi"/>
+			<Item Name="WSD Responce Bytes Count.vi" Type="VI" URL="/&lt;instrlib&gt;/Samwontech TEMP2xxx/Private/WSD Responce Bytes Count.vi"/>
+		</Item>
 		<Item Name="Checksum Calculate.vi" Type="VI" URL="/&lt;instrlib&gt;/Samwontech TEMP2xxx/Private/Checksum Calculate.vi"/>
 		<Item Name="Responce Parse.vi" Type="VI" URL="/&lt;instrlib&gt;/Samwontech TEMP2xxx/Private/Responce Parse.vi"/>
 	</Item>
@@ -38,6 +42,7 @@ Samwontech TEMP2xxx Series Programmable Controller (TEMP2500/TEMP2700)</Property
 		<Item Name="Data" Type="Folder">
 			<Item Name="Data.mnu" Type="Document" URL="/&lt;instrlib&gt;/Samwontech TEMP2xxx/Public/Data/Data.mnu"/>
 			<Item Name="Read D-Register.vi" Type="VI" URL="/&lt;instrlib&gt;/Samwontech TEMP2xxx/Public/Data/Read D-Register.vi"/>
+			<Item Name="Write D-Register.vi" Type="VI" URL="/&lt;instrlib&gt;/Samwontech TEMP2xxx/Public/Data/Write D-Register.vi"/>
 			<Item Name="AMI.vi" Type="VI" URL="/&lt;instrlib&gt;/Samwontech TEMP2xxx/Public/Data/AMI.vi"/>
 		</Item>
 		<Item Name="dir.mnu" Type="Document" URL="/&lt;instrlib&gt;/Samwontech TEMP2xxx/Public/dir.mnu"/>

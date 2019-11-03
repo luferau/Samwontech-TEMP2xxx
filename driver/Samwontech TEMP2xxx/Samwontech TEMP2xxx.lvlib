@@ -15,6 +15,9 @@ Samwontech TEMP2xxx Series Programmable Controller (TEMP2500/TEMP2700)</Property
 </Property>
 	<Item Name="Typedefs" Type="Folder">
 		<Item Name="PrivateData--Cluster.ctl" Type="VI" URL="/&lt;instrlib&gt;/Samwontech TEMP2xxx/Typedefs/PrivateData--Cluster.ctl"/>
+		<Item Name="D-Registers Map--Enum.ctl" Type="VI" URL="/&lt;instrlib&gt;/Samwontech TEMP2xxx/Typedefs/D-Registers Map--Enum.ctl"/>
+		<Item Name="Operation Mode--Enum.ctl" Type="VI" URL="/&lt;instrlib&gt;/Samwontech TEMP2xxx/Typedefs/Operation Mode--Enum.ctl"/>
+		<Item Name="Mode Control--Enum.ctl" Type="VI" URL="/&lt;instrlib&gt;/Samwontech TEMP2xxx/Typedefs/Mode Control--Enum.ctl"/>
 	</Item>
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
@@ -34,16 +37,24 @@ Samwontech TEMP2xxx Series Programmable Controller (TEMP2500/TEMP2700)</Property
 			<Item Name="WSD Responce Bytes Count.vi" Type="VI" URL="/&lt;instrlib&gt;/Samwontech TEMP2xxx/Private/WSD Responce Bytes Count.vi"/>
 		</Item>
 		<Item Name="Checksum Calculate.vi" Type="VI" URL="/&lt;instrlib&gt;/Samwontech TEMP2xxx/Private/Checksum Calculate.vi"/>
+		<Item Name="Write Read Process.vi" Type="VI" URL="/&lt;instrlib&gt;/Samwontech TEMP2xxx/Private/Write Read Process.vi"/>
 		<Item Name="Responce Parse.vi" Type="VI" URL="/&lt;instrlib&gt;/Samwontech TEMP2xxx/Private/Responce Parse.vi"/>
 	</Item>
 	<Item Name="Public" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="Data" Type="Folder">
+			<Item Name="Low level" Type="Folder">
+				<Item Name="Read D-Register.vi" Type="VI" URL="/&lt;instrlib&gt;/Samwontech TEMP2xxx/Public/Data/Low level/Read D-Register.vi"/>
+				<Item Name="Write D-Register.vi" Type="VI" URL="/&lt;instrlib&gt;/Samwontech TEMP2xxx/Public/Data/Low level/Write D-Register.vi"/>
+			</Item>
 			<Item Name="Data.mnu" Type="Document" URL="/&lt;instrlib&gt;/Samwontech TEMP2xxx/Public/Data/Data.mnu"/>
-			<Item Name="Read D-Register.vi" Type="VI" URL="/&lt;instrlib&gt;/Samwontech TEMP2xxx/Public/Data/Read D-Register.vi"/>
-			<Item Name="Write D-Register.vi" Type="VI" URL="/&lt;instrlib&gt;/Samwontech TEMP2xxx/Public/Data/Write D-Register.vi"/>
 			<Item Name="AMI.vi" Type="VI" URL="/&lt;instrlib&gt;/Samwontech TEMP2xxx/Public/Data/AMI.vi"/>
+			<Item Name="Get Current PV.vi" Type="VI" URL="/&lt;instrlib&gt;/Samwontech TEMP2xxx/Public/Data/Get Current PV.vi"/>
+		</Item>
+		<Item Name="Mode" Type="Folder">
+			<Item Name="Run Fix Operation.vi" Type="VI" URL="/&lt;instrlib&gt;/Samwontech TEMP2xxx/Public/Mode/Run Fix Operation.vi"/>
+			<Item Name="Set Fix Operation Set Point.vi" Type="VI" URL="/&lt;instrlib&gt;/Samwontech TEMP2xxx/Public/Mode/Set Fix Operation Set Point.vi"/>
 		</Item>
 		<Item Name="dir.mnu" Type="Document" URL="/&lt;instrlib&gt;/Samwontech TEMP2xxx/Public/dir.mnu"/>
 		<Item Name="Close.vi" Type="VI" URL="/&lt;instrlib&gt;/Samwontech TEMP2xxx/Public/Close.vi"/>

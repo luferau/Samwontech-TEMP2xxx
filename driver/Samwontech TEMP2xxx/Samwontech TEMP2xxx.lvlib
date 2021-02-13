@@ -20,7 +20,7 @@ Samwontech TEMP2xxx Series Programmable Controller (TEMP2500/TEMP2700)</Property
 		<Item Name="Mode Control--Enum.ctl" Type="VI" URL="/&lt;instrlib&gt;/Samwontech TEMP2xxx/Typedefs/Mode Control--Enum.ctl"/>
 	</Item>
 	<Item Name="Private" Type="Folder">
-		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="RSD" Type="Folder">
 			<Item Name="RSD Request Compose.vi" Type="VI" URL="/&lt;instrlib&gt;/Samwontech TEMP2xxx/Private/RSD Request Compose.vi"/>
@@ -39,6 +39,7 @@ Samwontech TEMP2xxx Series Programmable Controller (TEMP2500/TEMP2700)</Property
 		<Item Name="Checksum Calculate.vi" Type="VI" URL="/&lt;instrlib&gt;/Samwontech TEMP2xxx/Private/Checksum Calculate.vi"/>
 		<Item Name="Write Read Process.vi" Type="VI" URL="/&lt;instrlib&gt;/Samwontech TEMP2xxx/Private/Write Read Process.vi"/>
 		<Item Name="Responce Parse.vi" Type="VI" URL="/&lt;instrlib&gt;/Samwontech TEMP2xxx/Private/Responce Parse.vi"/>
+		<Item Name="Is Error Responce.vi" Type="VI" URL="/&lt;instrlib&gt;/Samwontech TEMP2xxx/Private/Is Error Responce.vi"/>
 	</Item>
 	<Item Name="Public" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>

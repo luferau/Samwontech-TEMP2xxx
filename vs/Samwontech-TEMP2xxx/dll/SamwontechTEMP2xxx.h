@@ -9,8 +9,14 @@ extern "C" {
 /*!
  * GetAMIRequest
  */
-void __cdecl GetAMIRequest(LVBoolean ChecksumUsed, uint8_t Address, 
-	char Request[], int32_t *len);
+void __cdecl GetAMIRequest(LVBoolean checksumUsed, uint8_t address, 
+	char request[], int32_t *len);
+/*!
+ * ParseAMIResponce
+ */
+int8_t __cdecl ParseAMIResponce(uint8_t Responce[], int32_t responceLength, 
+	uint8_t modelName[], int32_t *modelNameLength, uint8_t VersionRevision[], 
+	int32_t *versionRevisionLength);
 
 MgErr __cdecl LVDLLStatus(char *errStr, int errStrLen, void *module);
 

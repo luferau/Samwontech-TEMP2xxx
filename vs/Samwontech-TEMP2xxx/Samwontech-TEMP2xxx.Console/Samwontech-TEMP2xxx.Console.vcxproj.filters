@@ -15,20 +15,11 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="app.rc">
-      <Filter>Resource Files</Filter>
-    </ResourceCompile>
+    <ClCompile Include="Samwontech-TEMP2xxx.Console.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Resource.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="pch.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\dll\SamwontechTEMP2xxx.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\dll\extcode.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -53,22 +44,20 @@
     <ClInclude Include="..\dll\platdefines.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\dll\SamwontechTEMP2xxx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Samwontech-TEMP2xxx.Console.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="AssemblyInfo.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="pch.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <Image Include="app.ico">
-      <Filter>Resource Files</Filter>
-    </Image>
+    <None Include="..\dll\SamwontechTEMP2xxx.aliases">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\dll\SamwontechTEMP2xxx.dll">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\dll\SamwontechTEMP2xxx.ini">
+      <Filter>Header Files</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Library Include="..\dll\SamwontechTEMP2xxx.lib">

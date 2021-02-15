@@ -22,6 +22,7 @@ bool AMI_Request_Test()
     bool result = true;
 
     // EXPECTED
+    // STX01AMI38\r\n
     char expected[] = { 0x02, 0x30, 0x31, 0x41, 0x4d, 0x49, 0x33, 0x38, 0x0d, 0x0a };
 
     // GET DLL VALUE

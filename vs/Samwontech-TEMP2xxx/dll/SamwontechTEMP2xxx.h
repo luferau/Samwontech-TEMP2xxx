@@ -13,8 +13,8 @@ void __cdecl GetAMIRequest(uint8_t request[], int32_t *length);
 /*!
  * ParseAMIResponce
  */
-int8_t __cdecl ParseAMIResponce(uint8_t Responce[], int32_t responceLength, 
-	uint8_t modelName[], int32_t *modelNameLength, uint8_t VersionRevision[], 
+int8_t __cdecl ParseAMIResponce(uint8_t responce[], int32_t responceLength, 
+	uint8_t modelName[], int32_t *modelNameLength, uint8_t versionRevision[], 
 	int32_t *versionRevisionLength);
 /*!
  * GetSetFixModeCommand
@@ -23,7 +23,7 @@ void __cdecl GetSetFixModeCommand(uint8_t command[], int32_t *length);
 /*!
  * CheckResponce
  */
-int8_t __cdecl CheckResponce(uint8_t Responce[], int32_t length);
+int8_t __cdecl CheckResponce(uint8_t responce[], int32_t length);
 /*!
  * GetStartStopCommand
  */

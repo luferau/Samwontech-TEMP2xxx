@@ -1,6 +1,8 @@
 // Samwontech-TEMP2xxx.Console.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
+#include <windows.h>
+#include <stdio.h>
 #include <iostream>
 #include "../dll/SamwontechTEMP2xxx.h"
 
@@ -345,12 +347,12 @@ bool CurrentPV_Responce_Test()
     double expectedCurrentPV = 25.0;
 
     // GET DLL VALUE
-    double* currentPV = new double(0.0);
+    double currentPV = 0.0;
 
-    signed char resultCode = ParseCurrentPVResponce(responce, sizeof(responce), currentPV);
+    signed char resultCode = ParseCurrentPVResponce(responce, sizeof(responce), &currentPV);
 
     // ASSERT
-    if ((resultCode != (signed char)expectedResultCode) || *currentPV != expectedCurrentPV) result = false;
+    if ((resultCode != (signed char)expectedResultCode) || currentPV != expectedCurrentPV) result = false;
 
     if (result) Passed();
     else Failed();
@@ -358,14 +360,28 @@ bool CurrentPV_Responce_Test()
     return result;
 }
 
+void change_color(const int color_flags)
+{
+    HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
+    SetConsoleTextAttribute(hConsole, color_flags);
+}
+
+template <class T>
+void print_colored(const int color_flags, const T& arg)
+{
+    change_color(color_flags);
+    std::cout << arg;
+    change_color(FOREGROUND_RED | FOREGROUND_GREEN | FOREGROUND_BLUE); //back to normal
+}
+
 void Passed()
 {
-    std::cout << "\033[32mPASSED\033[0m\n";
+    print_colored(FOREGROUND_GREEN, "PASSED\n");
 }
 
 void Failed()
 {
-    std::cout << "\033[31mFAILED\033[0m\n";
+    print_colored(FOREGROUND_RED, "FAILED\n");
 }
 
 

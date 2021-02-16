@@ -50,7 +50,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6222FFC1-9F56-4336-AACD-5867A4E90AAF}</Property>
-				<Property Name="Bld_version.build" Type="Int">39</Property>
+				<Property Name="Bld_version.build" Type="Int">41</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">SamwontechTEMP2xxx.dll</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/SamwontechTEMP2xxx.dll</Property>
@@ -65,7 +65,7 @@
 				<Property Name="Dll_includeHeaders" Type="Bool">true</Property>
 				<Property Name="Dll_libGUID" Type="Str">{E54D1B40-26C6-44C6-A1B6-615E2C6F357E}</Property>
 				<Property Name="Dll_privateExecSys" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{45A1F869-0E65-4DED-B3C3-A5C607DDD6D6}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{8DF61E3D-5DE9-490E-BD82-30D665ECB266}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].ExportedVI.VIProtoInfo[0]VIProtoDir" Type="Int">1</Property>
@@ -176,7 +176,7 @@
 				<Property Name="Source[3].ExportedVI.VIProtoInfo[1]VIProtoInputIdx" Type="Int">11</Property>
 				<Property Name="Source[3].ExportedVI.VIProtoInfo[1]VIProtoLenInput" Type="Int">2</Property>
 				<Property Name="Source[3].ExportedVI.VIProtoInfo[1]VIProtoLenOutput" Type="Int">-1</Property>
-				<Property Name="Source[3].ExportedVI.VIProtoInfo[1]VIProtoName" Type="Str">Responce</Property>
+				<Property Name="Source[3].ExportedVI.VIProtoInfo[1]VIProtoName" Type="Str">responce</Property>
 				<Property Name="Source[3].ExportedVI.VIProtoInfo[1]VIProtoOutputIdx" Type="Int">-1</Property>
 				<Property Name="Source[3].ExportedVI.VIProtoInfo[1]VIProtoPassBy" Type="Int">1</Property>
 				<Property Name="Source[3].ExportedVI.VIProtoInfo[2]VIProtoDir" Type="Int">3</Property>
@@ -204,7 +204,7 @@
 				<Property Name="Source[3].ExportedVI.VIProtoInfo[5]VIProtoInputIdx" Type="Int">-1</Property>
 				<Property Name="Source[3].ExportedVI.VIProtoInfo[5]VIProtoLenInput" Type="Int">6</Property>
 				<Property Name="Source[3].ExportedVI.VIProtoInfo[5]VIProtoLenOutput" Type="Int">6</Property>
-				<Property Name="Source[3].ExportedVI.VIProtoInfo[5]VIProtoName" Type="Str">VersionRevision</Property>
+				<Property Name="Source[3].ExportedVI.VIProtoInfo[5]VIProtoName" Type="Str">versionRevision</Property>
 				<Property Name="Source[3].ExportedVI.VIProtoInfo[5]VIProtoOutputIdx" Type="Int">1</Property>
 				<Property Name="Source[3].ExportedVI.VIProtoInfo[5]VIProtoPassBy" Type="Int">1</Property>
 				<Property Name="Source[3].ExportedVI.VIProtoInfo[6]CallingConv" Type="Int">1</Property>
@@ -268,7 +268,7 @@
 				<Property Name="Source[7].ExportedVI.VIProtoInfo[1]VIProtoInputIdx" Type="Int">11</Property>
 				<Property Name="Source[7].ExportedVI.VIProtoInfo[1]VIProtoLenInput" Type="Int">2</Property>
 				<Property Name="Source[7].ExportedVI.VIProtoInfo[1]VIProtoLenOutput" Type="Int">-1</Property>
-				<Property Name="Source[7].ExportedVI.VIProtoInfo[1]VIProtoName" Type="Str">Responce</Property>
+				<Property Name="Source[7].ExportedVI.VIProtoInfo[1]VIProtoName" Type="Str">responce</Property>
 				<Property Name="Source[7].ExportedVI.VIProtoInfo[1]VIProtoOutputIdx" Type="Int">-1</Property>
 				<Property Name="Source[7].ExportedVI.VIProtoInfo[1]VIProtoPassBy" Type="Int">1</Property>
 				<Property Name="Source[7].ExportedVI.VIProtoInfo[2]CallingConv" Type="Int">1</Property>

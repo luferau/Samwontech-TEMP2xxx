@@ -50,7 +50,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6222FFC1-9F56-4336-AACD-5867A4E90AAF}</Property>
-				<Property Name="Bld_version.build" Type="Int">41</Property>
+				<Property Name="Bld_version.build" Type="Int">42</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">SamwontechTEMP2xxx.dll</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/SamwontechTEMP2xxx.dll</Property>
@@ -65,7 +65,7 @@
 				<Property Name="Dll_includeHeaders" Type="Bool">true</Property>
 				<Property Name="Dll_libGUID" Type="Str">{E54D1B40-26C6-44C6-A1B6-615E2C6F357E}</Property>
 				<Property Name="Dll_privateExecSys" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{8DF61E3D-5DE9-490E-BD82-30D665ECB266}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{328E908A-8DD0-405C-8259-4D98CFF2C1B1}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].ExportedVI.VIProtoInfo[0]VIProtoDir" Type="Int">1</Property>

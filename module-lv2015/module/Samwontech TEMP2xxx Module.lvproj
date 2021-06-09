@@ -43,7 +43,6 @@
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{475CBB11-3B16-40FE-8597-093A1CD29288}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Samwontech TEMP2xxx Module</Property>
-				<Property Name="Bld_compilerOptLevel" Type="Int">0</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
@@ -51,7 +50,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6222FFC1-9F56-4336-AACD-5867A4E90AAF}</Property>
-				<Property Name="Bld_version.build" Type="Int">45</Property>
+				<Property Name="Bld_version.build" Type="Int">43</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">SamwontechTEMP2xxx.dll</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/SamwontechTEMP2xxx.dll</Property>
@@ -65,7 +64,7 @@
 				<Property Name="Dll_headerGUID" Type="Str">{CE11BFEC-E70B-4CE0-A2A7-429477FA0C51}</Property>
 				<Property Name="Dll_includeHeaders" Type="Bool">true</Property>
 				<Property Name="Dll_libGUID" Type="Str">{E54D1B40-26C6-44C6-A1B6-615E2C6F357E}</Property>
-				<Property Name="Source[0].itemID" Type="Str">{CB52EEA6-AA5B-413B-B109-2F95CDEEE114}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{328E908A-8DD0-405C-8259-4D98CFF2C1B1}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].ExportedVI.VIProtoInfo[0]VIProtoDir" Type="Int">1</Property>
